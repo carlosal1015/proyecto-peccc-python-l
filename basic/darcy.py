@@ -148,8 +148,8 @@ for k in range(1, T):
                          S, 2), np.format_float_scientific(K, 2),
                          np.format_float_scientific(fg, 2), mu))
 
-        plt.show()
-        #plt.savefig("plot")
+        # plt.show()
+        plt.savefig('darcy/time_%05d.png' % k)
         plt.close()
 
     print('time =', t)
